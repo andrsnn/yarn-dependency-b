@@ -1,0 +1,8 @@
+{
+  "name": "yarn-dependency-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andrsnn/yarn-dependency-b",
+  "author": "Aidan Anderson",
+  "license": "MIT"
+}
