@@ -2,8 +2,6 @@ An attempt to reproduce the "Fetching packages" issue found [here.](https://gith
 
 Clone this module.
 
-Run `yarn cache clean; yarn;` which should reproduce the problem.
+Running `yarn cache clean; yarn;` should reproduce the problem, but as this problem appears to be due to a race condition, the install will sometimes succeed.
 
-Occasionally the above command is successful, deleting node_modules folder and yarn.lock then running the command again should exhibit the behavior.
-
-`rm -rf node_modules; rm yarn.lock; yarn cache clean; yarn;`
+If your install succeeds run `run.sh` in the root until yarn hangs.
