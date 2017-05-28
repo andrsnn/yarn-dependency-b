@@ -1,11 +1,11 @@
 {
-  "name": "yarn-dependency-b",
-  "version": "1.0.0",
+  "name": "yarn-git-dependency-issue",
+  "version": "1.0.2",
   "main": "index.js",
-  "repository": "https://github.com/andrsnn/yarn-dependency-b",
+  "repository": "https://github.com/andrsnn/yarn-git-dependency-issue",
   "author": "Aidan Anderson",
   "license": "MIT",
   "dependencies": {
-    "yarn-dependency-c": "https://github.com/andrsnn/yarn-dependency-c#1.0.1"
+    "yarn-dependency-a": "https://github.com/andrsnn/yarn-dependency-a#1.0.2"
   }
 }
