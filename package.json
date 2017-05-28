@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/andrsnn/yarn-dependency-b",
   "author": "Aidan Anderson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yarn-dependency-c": "https://github.com/andrsnn/yarn-dependency-c#1.0.1"
+  }
 }
